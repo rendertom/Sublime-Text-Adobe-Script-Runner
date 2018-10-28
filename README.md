@@ -38,7 +38,7 @@ If you have Adobe applications installed in a custom location, you will need to 
 }
 ```
 
-Executable paths for InCopy and InDesign for Windows are not exposed because they are handled differently than the rest of the apps. Go figure Adobe ¯\_(ツ)_/¯
+Executable paths for InCopy and InDesign for Windows are not exposed because they are handled differently than the rest of the apps. Go figure Adobe ¯\\_(ツ)_/¯
 
 ---
 
