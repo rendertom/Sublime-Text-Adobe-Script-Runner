@@ -2,6 +2,6 @@
 	"cmd": "osascript -e 'tell application id \"com.adobe.photoshop\" to activate do javascript file \"$file\"'",
 	"shell": true,
 	"windows": {
-		"cmd": "\"C:/Program Files/Adobe/Adobe Photoshop CC 2018/Photoshop.exe\" -r $file"
+		"cmd": "\"C:/Program Files/Adobe/Adobe Photoshop CC 2019/Photoshop.exe\" -r $file"
 	}
 }

@@ -2,6 +2,6 @@
 	"cmd": "osascript -e 'tell application id \"com.adobe.aftereffects\" to activate DoScriptFile \"$file\"'",
 	"shell": true,
 	"windows": {
-		"cmd": "\"C:/Program Files/Adobe/Adobe After Effects CC 2018/Support Files/AfterFX.exe\" -r $file"
+		"cmd": "\"C:/Program Files/Adobe/Adobe After Effects CC 2019/Support Files/AfterFX.exe\" -r $file"
 	}
 }

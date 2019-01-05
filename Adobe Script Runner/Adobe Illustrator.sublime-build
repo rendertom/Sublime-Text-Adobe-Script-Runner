@@ -2,6 +2,6 @@
 	"cmd": "osascript -e 'tell application id \"com.adobe.illustrator\" to activate do javascript file \"$file\"'",
 	"shell": true,
 	"windows": {
-		"cmd": "\"C:/Program Files/Adobe/Adobe Illustrator CC 2018/Support Files/Contents/Windows/Illustrator.exe\" -r $file"
+		"cmd": "\"C:/Program Files/Adobe/Adobe Illustrator CC 2019/Support Files/Contents/Windows/Illustrator.exe\" -r $file"
 	}
 }
