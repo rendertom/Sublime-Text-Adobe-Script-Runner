@@ -1,5 +1,5 @@
 {
-	"cmd": "osascript -e 'tell application id \"com.adobe.InDesign\" to activate do script \"$file\" language javascript'",
+	"cmd": "osascript '${packages}/Adobe Script Runner/ASR.scpt' '$file' 'InDesign'",
 	"shell": true,
 	"windows": {
 		"cmd": "powershell -command \"\\$indesign = new-object -comobject InDesign.Application; \\$indesign.DoScript('$file', 1246973031)\""

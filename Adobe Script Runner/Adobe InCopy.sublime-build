@@ -1,5 +1,5 @@
 {
-	"cmd": "osascript -e 'tell application id \"com.adobe.InCopy\" to activate do script \"$file\" language javascript'",
+	"cmd": "osascript '${packages}/Adobe Script Runner/ASR.scpt' '$file' 'InCopy'",
 	"shell": true,
 	"windows": {
 		"cmd": "powershell -command \"\\$incopy = new-object -comobject InCopy.Application; \\$incopy.DoScript('$file', 1246973031)\""

@@ -1,6 +1,6 @@
 # Adobe Script Runner
 
-Script runner for Adobe applications right from [Sublime Text](https://www.sublimetext.com). Extension also available for [VSCode](https://marketplace.visualstudio.com/items?itemName=renderTom.adobe-script-runner) and [Atom.io](https://atom.io/packages/adobe-script-runner).
+Script runner for Adobe applications right from [Sublime Text](https://www.sublimetext.com). The extension also available for [VSCode](https://marketplace.visualstudio.com/items?itemName=renderTom.adobe-script-runner) and [Atom.io](https://atom.io/packages/adobe-script-runner).
 
 ## Supported applications
 
@@ -23,6 +23,12 @@ Script runner for Adobe applications right from [Sublime Text](https://www.subli
 - Launch Sublime Text and open any ExtendScript JSX file you want to run in Adobe application,
 - In Sublime Text navigate to `Tools -> Build System` and pick an application you want to execute your file in,
 - Click `CMD+B` on Mac or `CTRL+B` on Windows and watch the magic.
+
+### For Mac users only
+
+Normally, Adobe Script Runner (ASR) executes the file in the active viewer. However, in cases when you need to run a master file (i.e. index.js) instead, you can append line at the beginning of the file in viewer `// adobe-script-runner 'index.js'`. This way ASR will not execute the file in the viewer, but instead will try to resolve the path to `index.js` file (up to 10 levels-up in the parent folder chain) and execute it.
+
+For instance, the path to file in the viewer is `/Users/[USERNAME]/Desktop/My App/lib/slave.js` and it contains a line `// adobe-script-runner '../../index.js'` at the top. On build command, ASR will execute the file at path `/Users/[USERNAME]/Desktop/index.js`.
 
 ### For Windows users only
 

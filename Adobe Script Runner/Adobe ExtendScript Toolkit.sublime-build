@@ -1,5 +1,5 @@
 {
-	"cmd": "osascript -e 'tell application id \"com.adobe.estoolkit-4.0\" to activate open \"$file\"'",
+	"cmd": "osascript '${packages}/Adobe Script Runner/ASR.scpt' '$file' 'ExtendScript Toolkit'",
 	"shell": true,
 	"windows": {
 		"cmd": "\"C:/Program Files (x86)/Adobe/Adobe ExtendScript Toolkit CC/ExtendScript Toolkit.exe\" -run $file"

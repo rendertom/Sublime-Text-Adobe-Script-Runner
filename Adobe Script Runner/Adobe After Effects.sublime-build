@@ -1,5 +1,5 @@
 {
-	"cmd": "osascript -e 'tell application id \"com.adobe.aftereffects\" to activate DoScriptFile \"$file\"'",
+	"cmd": "osascript '${packages}/Adobe Script Runner/ASR.scpt' '$file' 'After Effects'",
 	"shell": true,
 	"windows": {
 		"cmd": "\"C:/Program Files/Adobe/Adobe After Effects CC 2019/Support Files/AfterFX.exe\" -r $file"
